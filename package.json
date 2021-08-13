@@ -1,0 +1,44 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "NODE_ENV=production node server.js",
+    "export": "next export",
+    "prestart": "npm run export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.19",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "disable-scroll": "^0.6.0",
+    "framer-motion": "^4.1.17",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "next": "^11.0.0",
+    "next-images": "^1.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-full-page": "^0.1.11",
+    "react-google-recaptcha": "^2.1.0",
+    "react-icons": "^4.2.0",
+    "react-loader-spinner": "^4.0.0",
+    "react-page-scroller": "^2.2.1",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "4.0.3",
+    "sweetalert2": "^11.0.18",
+    "typewriter-effect": "^2.18.0",
+    "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.0"
+  }
+}
